@@ -1,0 +1,72 @@
+name: 🐛 Bug Report
+description: Create a report to help us improve PyRun
+title: "[BUG]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report! Please provide as much detail as possible.
+  - type: checkboxes
+    id: prerequisites
+    attributes:
+      label: Prerequisites
+      description: Please ensure the following before submitting.
+      options:
+        - label: I have searched the existing [issues](https://github.com/pyrun-cloud/pyrun-bug-report/issues) and confirm this is not a duplicate.
+          required: true
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: Steps to Reproduce
+      description: Please provide a clear, step-by-step sequence of actions to trigger the bug.
+      placeholder: |
+        1. Go to '...'
+        2. Click on '....'
+        3. Scroll down to '....'
+        4. See error
+    validations:
+      required: true
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: Expected Behavior
+      description: What did you expect to happen?
+    validations:
+      required: true
+  - type: textarea
+    id: actual-behavior
+    attributes:
+      label: Actual Behavior
+      description: What actually happened? Please include full error messages if any.
+      placeholder: A clear and concise description of what the bug is. Include screenshots if needed.
+    validations:
+      required: true
+  - type: input
+    id: pyrun-version
+    attributes:
+      label: PyRun Version (if known)
+      description: If you know the version of PyRun you were using, please provide it.
+  - type: input
+    id: browser-os
+    attributes:
+      label: Browser & Operating System
+      description: e.g., Chrome 118 on macOS Sonoma, Firefox 117 on Windows 11
+    validations:
+      required: true
+  - type: textarea
+    id: workspace-runtime
+    attributes:
+      label: Workspace & Runtime Details
+      description: What kind of workspace (e.g., Lithops/Dask template)? If you customized the runtime, please paste relevant parts of your `.pyrun/environment.yaml` or `Dockerfile`.
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant Logs
+      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+      render: shell
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context (Screenshots, etc.)
+      description: Add any other context about the problem here. You can drag and drop screenshots.

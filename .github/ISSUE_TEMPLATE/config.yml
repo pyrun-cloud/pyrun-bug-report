@@ -1,0 +1,8 @@
+blank_issues_enabled: false 
+contact_links:
+  - name: ❓ PyRun Usage Question
+    url: mailto:pyruncloud@gmail.com
+    about: Please ask general usage questions here, not in the issue tracker.
+  - name: 📚 PyRun Documentation
+    url: https://docs.pyrun.cloud
+    about: Check the documentation for guides and tutorials.
