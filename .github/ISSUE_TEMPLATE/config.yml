@@ -1,7 +1,7 @@
 blank_issues_enabled: false 
 contact_links:
   - name: ❓ PyRun Usage Question
-    url: mailto:pyruncloud@gmail.com
+    url: https://discord.gg/AF9XBqbxRS
     about: Please ask general usage questions here, not in the issue tracker.
   - name: 📚 PyRun Documentation
     url: https://docs.pyrun.cloud

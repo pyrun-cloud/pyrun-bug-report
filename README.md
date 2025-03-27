@@ -62,5 +62,6 @@ All interactions in this repository are expected to follow our [Code of Conduct]
 
 *   **PyRun Documentation:** [docs.pyrun.cloud](https://docs.pyrun.cloud)
 *   **PyRun Website:** [pyrun.cloud](https://pyrun.cloud)
+*   **PyRun Discord:** [Discord](https://discord.gg/AF9XBqbxRS)
 
 Thank you for contributing to PyRun!
